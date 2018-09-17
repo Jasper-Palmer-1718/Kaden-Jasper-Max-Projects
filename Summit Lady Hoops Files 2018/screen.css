@@ -50,7 +50,7 @@ nav.main li a {
   text-decoration: none;
   color: #385736;
   font-size: 30px;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 nav.main li img {
@@ -59,14 +59,13 @@ nav.main li img {
 }
 
 li a:hover {
-  background-color: #385736;
   color: black;
+  transition: 0.4s;
 }
 nav.main li a:hover{
   color: black;
 }
 nav.main li a.active {
-  background-color: #008837;
   /*background-color: #385736;*/
   color: black;
 }
